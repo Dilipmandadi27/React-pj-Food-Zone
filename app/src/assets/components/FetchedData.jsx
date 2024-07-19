@@ -15,7 +15,6 @@ const FetchedData = ({ data }) => {
                 <h3>{food.name} </h3>
                 <p>{food.text}</p>
             </div>
-           
             <button className="btn">${food.price.toFixed(2)}</button>
             </div>
             </div>
@@ -26,3 +25,4 @@ const FetchedData = ({ data }) => {
 };
 
 export default FetchedData;
+

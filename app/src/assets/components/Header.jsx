@@ -1,9 +1,15 @@
 import React from 'react'
-import logo from "../../images/logo.svg"
+import logo from "../../../public/logo.svg"
 
 const Header = ({searchFood,filteredbtn,filteredFood}) => {
   return (
     <header>
+      <div className='ad'>
+<marquee direction="right">
+  <a href="#">Get Exclusive Discounts Upto 80% off on Lunch meals || Hurry Now!!
+  </a>
+</marquee>
+      </div>
       <div className="logo_input">
         <img src = {logo} alt="logo" />
          <input
@@ -21,3 +27,4 @@ const Header = ({searchFood,filteredbtn,filteredFood}) => {
 }
 
 export default Header
+

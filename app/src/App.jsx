@@ -1,8 +1,9 @@
 
-import './App.css'
 import FetchedData from './assets/Components/FetchedData'
 import Header from './assets/Components/Header'
 import { useEffect, useState } from 'react'
+import "./App.css"
+import Footer from './assets/components/Footer'
 
  export const BASE_URL = "http://localhost:9000"
 
@@ -100,10 +101,9 @@ const App = ()=> {
     <>
       <Header searchFood={searchFood} filteredbtn={filteredbtn} filteredFood={filteredFood}/>
      <FetchedData data={filteredData}/>
+     <Footer/>
     </>
-    
   )
 }
 
 export default App
-
