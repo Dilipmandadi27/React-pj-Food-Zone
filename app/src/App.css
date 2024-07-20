@@ -250,6 +250,7 @@ button:hover{
   padding: 50px;
   height: 200px;
   background-color: black;
+  color: white;
 }
 
 .indicator h3{

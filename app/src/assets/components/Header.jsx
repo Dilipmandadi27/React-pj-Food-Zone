@@ -6,7 +6,7 @@ const Header = ({searchFood,filteredbtn,filteredFood}) => {
     <header>
       <div className='ad'>
 <marquee direction="right">
-  <a href="#">Get Exclusive Discounts Upto 80% off on Lunch meals || Hurry Now!!
+  <a href="#">Get Exclusive Discounts Upto 80% off || Hurry Now!!
   </a>
 </marquee>
       </div>
